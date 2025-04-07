@@ -1,0 +1,11 @@
+#experience{
+    padding: 1.5rem;
+    padding-bottom: 1.3rem;
+}
+
+.sectionTitle{
+    color: var(--violet);
+    font-weight: 500;
+    line-height: 1.5rem;
+    margin-bottom: .2rem;
+}

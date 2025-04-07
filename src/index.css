@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --russian-violet: #240733;
+    --violet: #39174b;
+    --eminence: #603875;
+    --pomp-and-power: #8c67a0;
+    --lilac: #bda5ca;
+    --thistle: #e6caf5;
+}
+
+@font-face {
+    font-family: "PPRightGrotesk";
+    src: url("/fonts/PPRightGrotesk-WideMedium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'PPMori-VariableVF';
+    src: url("/fonts/PPMori-VariableVF.ttf") format('truetype');
+    
+}
+
+body{
+    min-height: 100vh;
+    background: linear-gradient(to bottom, var(--thistle) 0%, var(--pomp-and-power) 80%);
+    font-family: "PPRightGrotesk";
+    text-align: center;
+    text-wrap: balance;
+}
+
+p, b{
+    color: var(--eminence);
+    font-weight: 500;
+}

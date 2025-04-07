@@ -1,0 +1,17 @@
+#projects{
+    display: flex;
+    flex-direction: column;
+    padding: 0 .5rem;
+}
+
+#projects b{
+    margin-bottom: .2rem;
+    font-size: .8rem;
+}
+
+.projectTitle{
+    color: var(--violet);
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+}

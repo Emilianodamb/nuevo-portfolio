@@ -1,0 +1,31 @@
+#hero{
+    display: flex;
+    flex-direction: column;
+}
+
+.introSection{
+    padding: 1.5rem;
+    padding-bottom: .8rem;
+}
+
+.title{
+    color: var(--violet);
+    font-size: 1.7rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    margin-bottom: .2rem;
+}
+
+#hero img{
+    width: 100%;
+    mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+    filter: grayscale(80%) blur(0.5px) brightness(1.5);
+    mix-blend-mode: hard-light;
+}
+
+
+.intro{
+    color: var(--eminence);
+}
+
+
