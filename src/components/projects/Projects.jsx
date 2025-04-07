@@ -5,83 +5,169 @@ import ImageCarousel from "../imageCarousel/ImageCarousel";
 const Projects = () => {
   return (
     <section id="projects">
-      <h3 className="projectTitle">Eventyfier</h3>
-      <b>Gestor de eventos</b>
-      <ImageCarousel
-        images={[
-          "/responsive-images/ejemplo-front.png",
-          "/responsive-images/ejemplomobile-left.png",
-          "/responsive-images/eventyfiertablet-landscape.png",
-          "/responsive-images/ejemplomobile-portrait.png",
-        ]}
-      />
-      <p>
-        Eventyfier es una aplicación web que desarrollé con foco en experiencia
-        de usuario, escalabilidad y automatización. Permite crear, editar y
-        eliminar eventos desde una interfaz web moderna, y también a través de
-        un asistente virtual en Telegram, capaz de interpretar texto y notas de
-        voz gracias a la integración con OpenAI. Este proyecto surgió como una
-        solución personal, pero terminó convirtiéndose en una plataforma
-        completa con panel de estadísticas, gestión de metadatos y un enfoque
-        fuerte en UX/UI.
-      </p>
-      <details>
+      <div className="project eventyfier">
+        <h3 className="projectTitle">Eventyfier</h3>
+        <b>Gestor de eventos</b>
+        <ImageCarousel
+          images={[
+            "/responsive-images/ejemplo-front.png",
+            "/responsive-images/ejemplomobile-left.png",
+            "/responsive-images/eventyfiertablet-landscape.png",
+            "/responsive-images/ejemplomobile-portrait.png",
+          ]}
+        />
+        <p>
+          Eventyfier es una aplicación web que desarrollé con foco en
+          experiencia de usuario, escalabilidad y automatización. Permite
+          gestionar eventos desde una interfaz moderna o a través de un
+          asistente en Telegram, que interpreta texto y notas de voz gracias a
+          su integración con OpenAI. Nació como una solución personal y
+          evolucionó en una plataforma completa con estadísticas, gestión de
+          metadatos y un fuerte enfoque en UX/UI.
+        </p>
         <h4>Stack técnico</h4>
         <ul>
-          <li>Frontend: React + Vite + TypeScript + Material UI </li>
           <li>
-            Estado y lógica: Context API, custom hooks y servicios desacoplados
-          </li>
-          <li>Forms y validaciones: react-hook-form + zod</li>
-          <li>Routing: react-router</li>
-          <li>Fechas: date-fns</li>
-          <li>Calendario: FullCalendar</li>
-          <li>Estadísticas: Recharts</li>
-          <li>Notificaciones: Sonner</li>
-          <li>Backend: Supabase (Auth, DB y APIs)</li>
-          <li>
-            Automatización & IA: n8n + HTTP requests + OpenAI (completions para
-            interpretación de comandos)
+            <strong>Frontend:</strong> React + Vite + TypeScript + Material UI
           </li>
           <li>
-            Bot de Telegram: Escucha mensajes de voz/texto, los interpreta y
-            ejecuta acciones sobre la base de datos
+            <strong>Estado y lógica:</strong> Context API, custom hooks,
+            servicios desacoplados
           </li>
           <li>
-            DevOps: Desplegado en dominio propio con configuración de DNS, SSL y
-            entorno de producción
+            <strong>Forms:</strong> react-hook-form + zod
+          </li>
+          <li>
+            <strong>Routing:</strong> react-router
+          </li>
+          <li>
+            <strong>Fechas:</strong> date-fns
+          </li>
+          <li>
+            <strong>Calendario:</strong> FullCalendar
+          </li>
+          <li>
+            <strong>Estadísticas:</strong> Recharts
+          </li>
+          <li>
+            <strong>Notificaciones:</strong> Sonner
+          </li>
+          <li>
+            <strong>Backend:</strong> Supabase (Auth, DB y APIs)
+          </li>
+          <li>
+            <strong>Automatización e IA:</strong> n8n + HTTP requests + OpenAI
+            (completions para comandos)
+          </li>
+          <li>
+            <strong>Bot de Telegram:</strong> Interpreta mensajes y ejecuta
+            acciones sobre la base de datos
+          </li>
+          <li>
+            <strong>DevOps:</strong> Despliegue en dominio propio con DNS, SSL y
+            entorno productivo
           </li>
         </ul>
+        <h4>Enfoque y arquitectura</h4>
+        <ul>
+          <li>Componentes reutilizables y lógica desacoplada</li>
+          <li>
+            Arquitectura orientada a servicios con separación clara de
+            responsabilidades
+          </li>
+          <li>UX priorizada en flujos móviles</li>
+          <li>Uso de herramientas modernas del ecosistema React</li>
+        </ul>
+        <p className="textBlack">
+          Este proyecto resume desafíos reales del frontend: pensar en el
+          usuario, manejar datos en tiempo real, automatizar flujos y mantener
+          un código limpio y escalable. También refleja mi interés por integrar
+          IA y asistentes conversacionales para lograr interacciones más
+          naturales.
+        </p>
+        <a href="https://www.eventyfier.com/">
+          Despliegue: https://www.eventyfier.com/
+        </a>
+      </div>
 
-        <h4>Enfoque y decisiones de arquitectura</h4>
+      <div className="project totalMecanica">
+        <h3 className="projectTitle">Total Mecánica</h3>
+        <b>Base de datos interactiva</b>
+        <ImageCarousel
+          images={[
+            "/responsive-images/ejemplo-front.png",
+            "/responsive-images/ejemplomobile-left.png",
+            "/responsive-images/eventyfiertablet-landscape.png",
+            "/responsive-images/ejemplomobile-portrait.png",
+          ]}
+        />
+        <p>
+        Total Mecánica es una aplicación web diseñada para proporcionarle al usuario un registro de los trabajos realizados a cada vehículo de forma facil e intuitiva y representa una solución escalable.
+        </p>
+        <h4>Stack técnico</h4>
         <ul>
           <li>
-            Diseño basado en componentes reutilizables y lógica desacoplada para
-            facilitar el mantenimiento
+            <strong>Frontend:</strong> React + Vite + JavaScript + TailwindCss
           </li>
           <li>
-            Arquitectura orientada a servicios con hooks personalizados y
-            separación clara entre vistas, lógica y UI
+            <strong>Estado y lógica:</strong> Context API, custom hooks,
+            servicios desacoplados
           </li>
           <li>
-            Priorización de la experiencia de usuario, especialmente en flujos
-            móviles
+            <strong>Forms:</strong> react-hook-form + zod
           </li>
           <li>
-            Uso de herramientas modernas del ecosistema React para garantizar
-            una base sólida y escalable
+            <strong>Routing:</strong> react-router
+          </li>
+          <li>
+            <strong>Fechas:</strong> date-fns
+          </li>
+          <li>
+            <strong>Calendario:</strong> FullCalendar
+          </li>
+          <li>
+            <strong>Estadísticas:</strong> Recharts
+          </li>
+          <li>
+            <strong>Notificaciones:</strong> Sonner
+          </li>
+          <li>
+            <strong>Backend:</strong> Supabase (Auth, DB y APIs)
+          </li>
+          <li>
+            <strong>Automatización e IA:</strong> n8n + HTTP requests + OpenAI
+            (completions para comandos)
+          </li>
+          <li>
+            <strong>Bot de Telegram:</strong> Interpreta mensajes y ejecuta
+            acciones sobre la base de datos
+          </li>
+          <li>
+            <strong>DevOps:</strong> Despliegue en dominio propio con DNS, SSL y
+            entorno productivo
           </li>
         </ul>
-        <p>
-          Este proyecto resume muchos de los desafíos reales que enfrentamos en
-          desarrollo frontend: pensar en el usuario final, manejar datos en
-          tiempo real, automatizar tareas, y mantener un código limpio y fácil
-          de escalar. Además, representa mi interés en explorar interacciones
-          más naturales entre humanos y sistemas, integrando IA y asistentes
-          conversacionales.
+        <h4>Enfoque y arquitectura</h4>
+        <ul>
+          <li>Componentes reutilizables y lógica desacoplada</li>
+          <li>
+            Arquitectura orientada a servicios con separación clara de
+            responsabilidades
+          </li>
+          <li>UX priorizada en flujos móviles</li>
+          <li>Uso de herramientas modernas del ecosistema React</li>
+        </ul>
+        <p className="textBlack">
+          Este proyecto resume desafíos reales del frontend: pensar en el
+          usuario, manejar datos en tiempo real, automatizar flujos y mantener
+          un código limpio y escalable. También refleja mi interés por integrar
+          IA y asistentes conversacionales para lograr interacciones más
+          naturales.
         </p>
-        <a href="https://www.eventyfier.com/">Despliegue: https://www.eventyfier.com/</a>
-      </details>
+        <a href="https://www.eventyfier.com/">
+          Despliegue: https://www.eventyfier.com/
+        </a>
+      </div>
     </section>
   );
 };

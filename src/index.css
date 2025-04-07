@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-weight: 500;
 }
 
 :root{
@@ -43,4 +44,10 @@ li{
 
 h4{
     padding-top: .75rem;
+}
+
+
+strong{
+    color: black;
+    text-shadow: none;
 }

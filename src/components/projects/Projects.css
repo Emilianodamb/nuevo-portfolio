@@ -1,23 +1,38 @@
 #projects{
     display: flex;
     flex-direction: column;
-    padding: 0 .5rem;
+    padding: 1.5rem .5rem;
+    background-color: var(--thistle);
+    gap: 3rem;
 }
 
 #projects b{
     margin-bottom: .2rem;
     font-size: .8rem;
+    color: black;
 }
 
 #projects p{
     text-align: center;
     text-wrap: balance;
     padding: 1.5rem;
+    color: black;
 }
 
 .projectTitle{
-    color: var(--violet);
     font-size: 1.2rem;
     font-weight: 500;
     line-height: 1.5rem;
+    color: black;
 }
+
+#projects h4{
+    color: black;
+    font-weight: 500;
+}
+
+#projects ul{
+    color: var(--eminence);
+}
+
+
