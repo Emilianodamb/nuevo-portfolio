@@ -1,13 +1,20 @@
 import React from "react";
 import "./Projects.css";
-import LazyLoad from "../lazyLoad/LazyLoad";
+import ImageCarousel from "../imageCarousel/ImageCarousel";
 
 const Projects = () => {
   return (
     <section id="projects">
       <h3 className="projectTitle">Eventyfier</h3>
       <b>Gestor de eventos</b>
-      <LazyLoad />
+      <ImageCarousel
+        images={[
+          "/responsive-images/ejemplo-front.png",
+          "/responsive-images/ejemplomobile-left.png",
+          "/responsive-images/eventyfiertablet-landscape.png",
+          "/responsive-images/ejemplomobile-portrait.png",
+        ]}
+      />
       <p>
         Eventyfier es una aplicación web desarrollada con React + TypeScript que
         permite gestionar eventos personales de manera intuitiva, eficiente y
