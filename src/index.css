@@ -36,3 +36,11 @@ p, b{
     color: var(--eminence);
     font-weight: 500;
 }
+
+li{
+    padding: .25rem 0
+}
+
+h4{
+    padding-top: .75rem;
+}

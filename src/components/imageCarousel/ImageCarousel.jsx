@@ -30,7 +30,6 @@ const ImageCarousel = ({images = []}) => {
                 width: "100%",
                 objectFit: "contain",
                 backgroundColor: "transparent",
-                marginBottom: "1rem"
               }}
             />
           </SwiperSlide>
